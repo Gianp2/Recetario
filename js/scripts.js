@@ -11,7 +11,6 @@ const ingredientTranslations = {
     "Acelga": "Chard",
     "Aguacate": "Avocado",
     "Albahaca": "Basil",
-    "Alcachofa": "Artichoke",
     "Almeja": "Clam",
     "Almendras": "Almonds",
     "Anacardos": "Cashews",
@@ -71,7 +70,7 @@ const ingredientTranslations = {
     "Huevo": "Egg",
     "Jamón": "Ham",
     "Jengibre": "Ginger",
-    "Kale": "Kale",
+    "Queso": "Cheese",
     "Kiwi": "Kiwi",
     "Langosta": "Lobster",
     "Lechuga": "Lettuce",
@@ -341,11 +340,9 @@ function printRecipe(index) {
             </div>
             <h2>Pasos</h2>
             <p>${recipe.steps}</p>
-            <script>window.print(); window.close();<\/script>
         </body>
         </html>
     `);
-    printWindow.document.close();
 }
 
 // editar, eliminar e imprimir recetas
